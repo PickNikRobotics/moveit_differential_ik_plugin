@@ -1,0 +1,5 @@
+<library path="moveit_differential_ik_plugin">
+  <class type="moveit_differential_ik_plugin::MoveItKinematics" base_class_type="admittance_controller::IKBaseClass">
+    <description>Use the Jacobian from MoveIt to do differential kinematics.</description>
+  </class>
+</library>
