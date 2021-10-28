@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>moveit_differential_ik_plugin</name>
+  <version>0.0.0</version>
+  <description>A plugin to provide differential kinematics. Used in admittance control.</description>
+  <maintainer email="zelenak@picknik.ai">Andy Zelenak</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>admittance_controller</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_ros_move_group</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>trajectory_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
